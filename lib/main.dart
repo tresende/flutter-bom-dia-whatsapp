@@ -7,12 +7,11 @@ class Main extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title:  "Flutter clothing",
+      title: "Flutter clothing",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        primaryColor: Color.fromARGB(255, 4, 125, 141)
-      ),
+          primarySwatch: Colors.blue,
+          primaryColor: Color.fromARGB(255, 250, 177, 160)),
       home: HomeScreen(),
     );
   }

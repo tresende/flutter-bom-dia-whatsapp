@@ -5,7 +5,10 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('BomDiaGrupo'),
+        title: Text(
+          'BomDiaGrupo',
+          style: TextStyle(color: Colors.white),
+        ),
         centerTitle: true,
       ),
     );
