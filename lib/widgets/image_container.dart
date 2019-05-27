@@ -9,14 +9,21 @@ class ImageContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      padding: EdgeInsets.all(20),
       child: AspectRatio(
           aspectRatio: .9,
-          child: Carousel(
-            images: this.images.map((url) => NetworkImage(url)).toList(),
-            dotSize: 4,
-            dotSpacing: 15,
-            dotBgColor: Colors.transparent,
-            autoplay: false,
+          child: Container(
+            decoration: BoxDecoration(
+              border: Border.all(),
+            ),
+            child: Carousel(
+              borderRadius: true,
+              images: this.images.map((url) => NetworkImage(url)).toList(),
+              dotSize: 4,
+              dotSpacing: 15,
+              dotBgColor: Colors.transparent,
+              autoplay: false,
+            ),
           )),
     );
   }
