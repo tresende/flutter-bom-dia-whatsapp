@@ -1,6 +1,7 @@
 package io.flutter.plugins;
 
 import io.flutter.plugin.common.PluginRegistry;
+import zhuoyuan.li.fluttershareme.FlutterShareMePlugin;
 
 /**
  * Generated file. Do not edit.
@@ -10,6 +11,7 @@ public final class GeneratedPluginRegistrant {
     if (alreadyRegisteredWith(registry)) {
       return;
     }
+    FlutterShareMePlugin.registerWith(registry.registrarFor("zhuoyuan.li.fluttershareme.FlutterShareMePlugin"));
   }
 
   private static boolean alreadyRegisteredWith(PluginRegistry registry) {

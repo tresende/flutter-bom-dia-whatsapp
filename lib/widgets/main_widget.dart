@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'controls.dart';
 import 'image_container.dart';
 
 class MainWidget extends StatelessWidget {
@@ -13,7 +14,7 @@ class MainWidget extends StatelessWidget {
         ),
       ),
       child: Column(
-        children: <Widget>[ImageContainer()],
+        children: <Widget>[ImageContainer(), Controls()],
       ),
     );
   }
