@@ -6,7 +6,7 @@ class TopPanel extends AppBar {
           centerTitle: true,
           elevation: 0,
           title: Text(
-            'BomDiaGrupo',
+            'Bom Dia Grupo!',
             style: TextStyle(color: Colors.white),
           ),
         );
